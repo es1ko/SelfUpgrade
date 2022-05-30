@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Self-Upgrade</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="CSS/buttondesign.css" rel="stylesheet">
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<link href="CSS/register.css" rel="stylesheet">
+
+
+</head>
+<body>
+	<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+	<header id="header" class="d-flex flex-column justify-content-center">
+	  <nav id="navbar" class="navbar nav-menu">
+		<ul>
+		  <li><a href="index.html" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a></li>
+		  <li><a href="profile.php" class="nav-link scrollto active"><i class="bx bx-user"></i> <span>Profile</span></a></li>
+		  <li><a href="challenges.html" class="nav-link scrollto"><i class="bx bx-task"></i> <span>Challenges</span></a></li>
+		  <li><a href="information.html" class="nav-link scrollto"><i class="bx bxs-videos"></i> <span>About us</span></a></li>
+		  <li><a href="feedback.html" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+		</ul>
+	  </nav>
+  
+	</header>
+
+	<div class="wrapper">
+		<div class="title">
+		  Registration Form
+		</div>
+		<div class="form">
+		  <form action="Php/registration.php" method="post">
+	
+		   <div class="inputfield">
+			  <label>Username</label>
+			  <input type="text" class="input" name="username" placeholder="Username" required="">
+		   </div>  
+	
+			<div class="inputfield">
+			  <label>Email</label>
+			  <input type="text" class="input" name="email" placeholder="Email" required="">
+		   </div>  
+	
+		   <div class="inputfield">
+			  <label>Birth date</label>
+			  <input type="date" class="input" name="birthdate" required="">
+		   </div>  
+	
+		  <div class="inputfield">
+			  <label>Phone number</label>
+			  <input type="text" class="input" name="phone_number" placeholder="Phone number" required="">
+		   </div> 
+	
+		  <div class="inputfield">
+			<label>City</label>
+			<input type="text" class="input" name="city" placeholder="City" required="">
+		  </div> 
+	
+		  <div class="inputfield">
+			<label>University</label>
+			<input type="text" class="input" name="university" placeholder="University" required="">
+		  </div> 
+	
+		  <div class="inputfield">
+			<label>Status</label>
+			<div class="custom_select">
+			  <select name="status">
+				<option value="Student">Student</option>
+				<option value="Tutor">Tutor</option>
+			  </select>
+			</div>
+		  </div> 
+	
+		
+		  <div class="inputfield">
+			<label>Password</label>
+			<input type="password" class="input" name="password" placeholder="Password" required="">
+		  </div> 
+	
+		  <div class="inputfield">
+			  <label>Confirm password</label>
+			  <input type="password" class="input" name="confirm_password" placeholder="Confirm Password" required="">
+		   </div> 
+	
+		  <div class="inputfield terms">
+			  <label class="check">
+				<input type="checkbox">
+				<span class="checkmark"></span>
+			  </label>
+			  <p>Agreed to terms and conditions</p>
+		   </div> 
+	
+		  <div class="inputfield">
+			<input type="submit" value="Register" class="btn">
+		  </div>
+	
+		  </form>
+		  <br>
+		  <p>Don't have an Account? <a href="Php/login.php"> Login Now!</a></p>
+	
+		</div>
+	</div>	
+	
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
